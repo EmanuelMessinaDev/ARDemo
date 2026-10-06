@@ -6,9 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/ImmersionTransition/Scenes/ImmersionDemo.unity
+    guid: a44ffedd206a3e244a0a13222a11fe52
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 84cbb5274a82fa94e8c87be740a3a39a,
+      type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: be8285b5dde2c6c4fa9838dde8ec3a6b,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9124d20b2dfa2574dbd8830088b1181e,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e82e21e1ed680b046931e32306a6de17,
