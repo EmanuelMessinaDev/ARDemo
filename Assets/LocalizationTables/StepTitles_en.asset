@@ -26,6 +26,14 @@ MonoBehaviour:
     m_Localized: Close the container and bolt it
     m_Metadata:
       m_Items: []
+  - m_Id: 367988553744384
+    m_Localized: Main selector ON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371830687203328
+    m_Localized: Open valve
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

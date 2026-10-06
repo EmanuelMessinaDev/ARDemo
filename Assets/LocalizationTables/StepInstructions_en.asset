@@ -34,6 +34,15 @@ MonoBehaviour:
     m_Localized: Tighten all the bolts with the cordless screwdriver
     m_Metadata:
       m_Items: []
+  - m_Id: 367684609310720
+    m_Localized: Turn the main disconnector ON (rotate clockwise)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371496120156160
+    m_Localized: 'Open the suction gate valve: turn the handwheel counter-clockwise,
+      using both hands'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
