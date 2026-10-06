@@ -193,7 +193,7 @@ MonoBehaviour:
   _snapPoseTransform: {fileID: 0}
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 0}
-  _timeOut: 0
+  _timeOut: 2
 --- !u!1 &8785463962652980034
 GameObject:
   m_ObjectHideFlags: 0
