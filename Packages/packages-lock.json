@@ -96,6 +96,14 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.techstar.env-quadropompe": {
+      "version": "file:../../EnvDemoARQuadroPompe/src_unity/Assets/QuadroPompe",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "14.0.12"
+      }
+    },
     "com.techstar.immersion": {
       "version": "file:../../packages/com.techstar.immersion",
       "depth": 0,

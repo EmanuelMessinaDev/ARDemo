@@ -31,6 +31,10 @@ MonoBehaviour:
     m_Key: step.04
     m_Metadata:
       m_Items: []
+  - m_Id: 605133121978368
+    m_Key: step.05
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

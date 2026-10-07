@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ImmersionTransition/Scenes/ImmersionDemo.unity
     guid: a44ffedd206a3e244a0a13222a11fe52
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Packages/com.techstar.env-quadropompe/Scenes/DemoARQuadroPompe.unity
+    guid: 57b9b72a6b899b343923220c63bfea1c
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 84cbb5274a82fa94e8c87be740a3a39a,
       type: 2}

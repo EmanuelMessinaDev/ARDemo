@@ -43,6 +43,10 @@ MonoBehaviour:
       using both hands'
     m_Metadata:
       m_Items: []
+  - m_Id: 604815659302912
+    m_Localized: Press the RESET button to clear the alarm
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

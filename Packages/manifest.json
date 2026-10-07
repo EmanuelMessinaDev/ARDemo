@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.meta.xr.sdk.all": "201.0.0",
+    "com.techstar.env-quadropompe": "file:../../EnvDemoARQuadroPompe/src_unity/Assets/QuadroPompe",
     "com.techstar.immersion": "file:../../packages/com.techstar.immersion",
     "com.techstar.interaction": "file:../../packages/com.techstar.interaction",
     "com.techstar.procedure": "file:../../packages/com.techstar.procedure",
