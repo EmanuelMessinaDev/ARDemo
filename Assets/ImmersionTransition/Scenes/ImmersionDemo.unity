@@ -332,7 +332,7 @@ Transform:
   m_GameObject: {fileID: 9845492}
   serializedVersion: 2
   m_LocalRotation: {x: -0.2647919, y: -0.65565664, z: 0.6556563, w: 0.2647917}
-  m_LocalPosition: {x: -0.0064434274, y: -0.007101447, z: -0.000044593122}
+  m_LocalPosition: {x: -0.0104, y: -0.0033, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -407,7 +407,7 @@ MonoBehaviour:
   _bolt: {fileID: 1622477721}
   _localAxis: {x: -1, y: 0, z: 0}
   _turns: 5
-  _travel: 0.01
+  _travel: 0.012313722
 --- !u!1 &13370193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,7 +1964,6 @@ Transform:
   - {fileID: 5494728410684892205}
   - {fileID: 1647416637}
   - {fileID: 589849338}
-  - {fileID: 1212886801}
   - {fileID: 524628257}
   - {fileID: 861636724}
   m_Father: {fileID: 0}
@@ -4988,7 +4987,7 @@ Transform:
   m_GameObject: {fileID: 588024547}
   serializedVersion: 2
   m_LocalRotation: {x: -0.2647919, y: -0.65565664, z: 0.6556563, w: 0.2647917}
-  m_LocalPosition: {x: -0.06566486, y: -0.06846213, z: -0.05216503}
+  m_LocalPosition: {x: -0.0696, y: -0.0647, z: -0.0521}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5012,7 +5011,7 @@ MonoBehaviour:
   _bolt: {fileID: 629216457}
   _localAxis: {x: -1, y: 0, z: 0}
   _turns: 5
-  _travel: 0.01
+  _travel: 0.01231372
 --- !u!114 &588024550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5139,7 +5138,7 @@ MonoBehaviour:
     _ringRequirement: 0
     _pinkyRequirement: 0
     _unselectMode: 0
-  _strengthDeadzone: 0.2
+  _strengthDeadzone: 0.7
   _relaxedHandGrabPoses:
   - {fileID: 1223616115}
   _tightHandGrabPoses:
@@ -6377,7 +6376,7 @@ Transform:
   m_GameObject: {fileID: 744684966}
   serializedVersion: 2
   m_LocalRotation: {x: -0.2647919, y: -0.65565664, z: 0.6556563, w: 0.2647917}
-  m_LocalPosition: {x: -0.027901292, y: -0.029334188, z: -0.05216503}
+  m_LocalPosition: {x: -0.0319, y: -0.0255, z: -0.0521}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6401,7 +6400,7 @@ MonoBehaviour:
   _bolt: {fileID: 1905743422}
   _localAxis: {x: -1, y: 0, z: 0}
   _turns: 5
-  _travel: 0.01
+  _travel: 0.01231372
 --- !u!114 &744684969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7012,7 +7011,7 @@ MonoBehaviour:
     _ringRequirement: 0
     _pinkyRequirement: 0
     _unselectMode: 0
-  _strengthDeadzone: 0.5
+  _strengthDeadzone: 0.7
   _relaxedHandGrabPoses:
   - {fileID: 849965487}
   _tightHandGrabPoses:
@@ -9326,12 +9325,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212886800}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 237478046}
+  m_Father: {fileID: 5494728410684892205}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1212886802
 AudioSource:
@@ -9444,7 +9443,7 @@ MonoBehaviour:
   _drill: {fileID: 237478043}
   _audioSource: {fileID: 1212886802}
   _minPitch: 0.5
-  _maxPitch: 1.5
+  _maxPitch: 3
   _maxVolume: 1
   _rampUpSpeed: 4
   _rampDownSpeed: 1
@@ -10536,7 +10535,7 @@ Transform:
   m_GameObject: {fileID: 1379977780}
   serializedVersion: 2
   m_LocalRotation: {x: -0.2647919, y: -0.65565664, z: 0.6556563, w: 0.2647917}
-  m_LocalPosition: {x: -0.06566489, y: -0.068461776, z: 0.051889896}
+  m_LocalPosition: {x: -0.0696, y: -0.0647, z: 0.0519}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10560,7 +10559,7 @@ MonoBehaviour:
   _bolt: {fileID: 1014202600}
   _localAxis: {x: -1, y: 0, z: 0}
   _turns: 5
-  _travel: 0.01
+  _travel: 0.01231372
 --- !u!114 &1379977783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13883,7 +13882,7 @@ Transform:
   m_GameObject: {fileID: 1908695470}
   serializedVersion: 2
   m_LocalRotation: {x: -0.2647919, y: -0.65565664, z: 0.6556563, w: 0.2647917}
-  m_LocalPosition: {x: -0.08662075, y: -0.09017503, z: -0.000041484833}
+  m_LocalPosition: {x: -0.0906, y: -0.0864, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13907,7 +13906,7 @@ MonoBehaviour:
   _bolt: {fileID: 1025597766}
   _localAxis: {x: -1, y: 0, z: 0}
   _turns: 5
-  _travel: 0.01
+  _travel: 0.01231372
 --- !u!114 &1908695473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14647,7 +14646,7 @@ Transform:
   m_GameObject: {fileID: 2146574230}
   serializedVersion: 2
   m_LocalRotation: {x: -0.2647919, y: -0.65565664, z: 0.6556563, w: 0.2647917}
-  m_LocalPosition: {x: -0.027901292, y: -0.029334068, z: 0.051889896}
+  m_LocalPosition: {x: -0.0319, y: -0.0255, z: 0.0519}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14671,7 +14670,7 @@ MonoBehaviour:
   _bolt: {fileID: 503939850}
   _localAxis: {x: -1, y: 0, z: 0}
   _turns: 5
-  _travel: 0.01
+  _travel: 0.01231372
 --- !u!114 &2146574233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14976,6 +14975,7 @@ Transform:
   m_Children:
   - {fileID: 106984098796031500}
   - {fileID: 1187050252}
+  - {fileID: 1212886801}
   m_Father: {fileID: 237478046}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &6632147195065884482
