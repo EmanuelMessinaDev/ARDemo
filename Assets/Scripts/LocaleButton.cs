@@ -89,7 +89,25 @@ public class LocaleButton : MonoBehaviour
 
         if (_entries != null && _entries.Length > 0)
         {
-            _resolved.AddRange(_entries);
+            // In a player build the locales are loaded through Addressables, so the instances referenced
+            // by the scene differ from the runtime ones: map each entry to the runtime locale by identifier.
+            foreach (Entry entry in _entries)
+            {
+                if (entry.Locale == null)
+                {
+                    continue;
+                }
+
+                Locale runtimeLocale = LocalizationSettings.AvailableLocales.GetLocale(entry.Locale.Identifier);
+                if (runtimeLocale == null)
+                {
+                    Debug.LogWarning($"Locale '{entry.Locale.Identifier.Code}' is not among the available locales.", this);
+                    continue;
+                }
+
+                _resolved.Add(new Entry { Locale = runtimeLocale, ShortName = entry.ShortName, FullName = entry.FullName });
+            }
+
             return;
         }
 
@@ -99,7 +117,8 @@ public class LocaleButton : MonoBehaviour
         }
     }
 
-    private int IndexOf(Locale locale) => _resolved.FindIndex(e => e.Locale == locale);
+    private int IndexOf(Locale locale) =>
+        locale == null ? -1 : _resolved.FindIndex(e => e.Locale.Identifier == locale.Identifier);
 
     private void Refresh(Locale locale)
     {
