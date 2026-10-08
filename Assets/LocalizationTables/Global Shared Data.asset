@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: Macchina a stati (pulizia filtro + avviamento)
     m_Metadata:
       m_Items: []
+  - m_Id: 10243212247040
+    m_Key: ProcedureDescription
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

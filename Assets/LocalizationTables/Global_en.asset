@@ -22,6 +22,10 @@ MonoBehaviour:
     m_Localized: VR Guided procedure
     m_Metadata:
       m_Items: []
+  - m_Id: 10243212247040
+    m_Localized: Macchina a stati (pulizia filtro + avviamento)
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
