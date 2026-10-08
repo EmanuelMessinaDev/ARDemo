@@ -19,35 +19,47 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 72373174272
-    m_Localized: Insert the filter
+    m_Localized: 'Filter replacement'
     m_Metadata:
       m_Items: []
   - m_Id: 231547011072
-    m_Localized: Close the container and bolt it
+    m_Localized: 'Closing the filter'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 820000000000001
+    m_Localized: 'Tightening the bolts'
     m_Metadata:
       m_Items: []
   - m_Id: 367988553744384
-    m_Localized: Main selector ON
+    m_Localized: 'Panel power-on'
     m_Metadata:
       m_Items: []
   - m_Id: 371830687203328
-    m_Localized: Open valve
+    m_Localized: 'Opening the suction'
     m_Metadata:
       m_Items: []
   - m_Id: 605133121978368
-    m_Localized: RESET alarm
+    m_Localized: 'Alarm reset'
     m_Metadata:
       m_Items: []
   - m_Id: 728957800873984
-    m_Localized: Enable and start pump 1
+    m_Localized: 'Pump 1 enable'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 820000000000002
+    m_Localized: 'Pump 1 start'
     m_Metadata:
       m_Items: []
   - m_Id: 746156041109504
-    m_Localized: Open the butterfly valve
+    m_Localized: 'Opening the delivery'
     m_Metadata:
       m_Items: []
   - m_Id: 746353282449408
-    m_Localized: Enable Pump2 2 - Start P2
+    m_Localized: 'Pump 2 enable'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 820000000000003
+    m_Localized: 'Pump 2 start'
     m_Metadata:
       m_Items: []
   references:

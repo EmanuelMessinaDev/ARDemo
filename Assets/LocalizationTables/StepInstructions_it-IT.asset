@@ -19,43 +19,47 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 5960564736
-    m_Localized: 'Inserisci il cestello filtrante nel corpo del filtro fino a portarlo in sede'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 79889367040
-    m_Localized: 'Chiudi il coperchio incernierato e serra i bulloni con l''avvitatore a batteria'
+    m_Localized: 'Inserisci il cestello nell''alloggio del filtro e spingilo fino a battuta'
     m_Metadata:
       m_Items: []
   - m_Id: 251338311532544
-    m_Localized: 'Chiudi il coperchio'
+    m_Localized: 'Chiudi il coperchio a cerniera del filtro'
     m_Metadata:
       m_Items: []
   - m_Id: 251479336615936
-    m_Localized: 'Serra tutti i bulloni con l''avvitatore a batteria'
+    m_Localized: 'Serra i sei bulloni del coperchio con l''avvitatore che trovi sul tavolo alla tua sinistra'
     m_Metadata:
       m_Items: []
   - m_Id: 367684609310720
-    m_Localized: 'Porta il sezionatore generale su ON (ruota in senso orario)'
+    m_Localized: 'Accendi il quadro comandi sotto il motore ruotando il selettore MAIN in senso orario'
     m_Metadata:
       m_Items: []
   - m_Id: 371496120156160
-    m_Localized: 'Apri la saracinesca di aspirazione: ruota il volantino in senso antiorario, usando entrambe le mani'
+    m_Localized: 'Apri la saracinesca di aspirazione che trovi alla tua sinistra: ruota il volantino in senso antiorario con due mani'
     m_Metadata:
       m_Items: []
   - m_Id: 604815659302912
-    m_Localized: 'Premi il pulsante RESET per tacitare l''allarme'
+    m_Localized: 'Premi il pulsante RESET del quadro comandi per tacitare l''allarme'
     m_Metadata:
       m_Items: []
   - m_Id: 728793438683136
-    m_Localized: 'Abilita la Pompa 1, poi premi il pulsante verde START P1'
+    m_Localized: 'Abilita la Pompa 1 ruotando il selettore ENABLE P1 in senso orario'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 821000000000001
+    m_Localized: 'Avvia la Pompa 1 premendo il pulsante MARCIA P1'
     m_Metadata:
       m_Items: []
   - m_Id: 745817137152000
-    m_Localized: 'Apri lentamente la valvola a farfalla - ruota la leva di un quarto di giro'
+    m_Localized: "Apri lentamente la valvola a farfalla che trovi sulla tua destra ruotando la leva di 90\u00B0 in senso antiorario"
     m_Metadata:
       m_Items: []
   - m_Id: 746014445600768
-    m_Localized: 'Abilita la Pompa 2, poi premi il pulsante verde START P2'
+    m_Localized: 'Abilita la Pompa 2 ruotando il selettore ENABLE P2 in senso orario'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 821000000000002
+    m_Localized: 'Avvia la Pompa 2 premendo il pulsante MARCIA P2'
     m_Metadata:
       m_Items: []
   references:

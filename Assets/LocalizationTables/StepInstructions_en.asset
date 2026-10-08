@@ -19,44 +19,47 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 5960564736
-    m_Localized: Insert the filter basket into the strainer until it seats
-    m_Metadata:
-      m_Items: []
-  - m_Id: 79889367040
-    m_Localized: Close the hinged cover and tighten the bolts with the cordless screwdriver
+    m_Localized: 'Insert the basket into the filter housing and push it in until it seats'
     m_Metadata:
       m_Items: []
   - m_Id: 251338311532544
-    m_Localized: Close the cover
+    m_Localized: 'Close the hinged filter cover'
     m_Metadata:
       m_Items: []
   - m_Id: 251479336615936
-    m_Localized: Tighten all the bolts with the cordless screwdriver
+    m_Localized: 'Tighten the six cover bolts with the cordless screwdriver on the table to your left'
     m_Metadata:
       m_Items: []
   - m_Id: 367684609310720
-    m_Localized: Turn the main disconnector ON (rotate clockwise)
+    m_Localized: 'Power on the control panel below the motor by turning the MAIN selector clockwise'
     m_Metadata:
       m_Items: []
   - m_Id: 371496120156160
-    m_Localized: 'Open the suction gate valve: turn the handwheel counter-clockwise,
-      using both hands'
+    m_Localized: 'Open the suction gate valve on your left: turn the handwheel counter-clockwise with both hands'
     m_Metadata:
       m_Items: []
   - m_Id: 604815659302912
-    m_Localized: Press the RESET button to clear the alarm
+    m_Localized: 'Press the RESET button on the control panel to clear the alarm'
     m_Metadata:
       m_Items: []
   - m_Id: 728793438683136
-    m_Localized: Enable Pump 1, then press the green START P1 button
+    m_Localized: 'Enable Pump 1 by turning the ENABLE P1 selector clockwise'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 821000000000001
+    m_Localized: 'Start Pump 1 by pressing the START P1 button'
     m_Metadata:
       m_Items: []
   - m_Id: 745817137152000
-    m_Localized: Slowly open the butterfly valve - turn the lever a quarter turn
+    m_Localized: "Slowly open the butterfly valve on your right by turning the lever 90\u00B0 counter-clockwise"
     m_Metadata:
       m_Items: []
   - m_Id: 746014445600768
-    m_Localized: Enable Pump 2, then press the green START P2 button
+    m_Localized: 'Enable Pump 2 by turning the ENABLE P2 selector clockwise'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 821000000000002
+    m_Localized: 'Start Pump 2 by pressing the START P2 button'
     m_Metadata:
       m_Items: []
   references:

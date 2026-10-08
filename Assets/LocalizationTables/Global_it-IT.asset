@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 75015585792
-    m_Localized: Procedura guidata VR
+    m_Localized: Manutenzione stazione di pompaggio
     m_Metadata:
       m_Items: []
   - m_Id: 10243212247040
-    m_Localized: Macchina a stati (pulizia filtro + avviamento)
+    m_Localized: ( INIZIA)
     m_Metadata:
       m_Items: []
   - m_Id: 56303636905984
@@ -35,11 +35,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 56641441955840
-    m_Localized: Inizia
+    m_Localized: INIZIA
     m_Metadata:
       m_Items: []
   - m_Id: 56837420810240
-    m_Localized: Procedura completata!
+    m_Localized: "Procedura completata \u2013 impianto in marcia"
     m_Metadata:
       m_Items: []
   references:
