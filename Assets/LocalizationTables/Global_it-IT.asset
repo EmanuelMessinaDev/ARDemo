@@ -9,45 +9,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: Global Shared Data
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Global_it-IT
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Global
-  m_TableCollectionNameGuidString: 2ed670c47855e024c8a9e4161375ecf7
-  m_Entries:
+  m_LocaleId:
+    m_Code: it-IT
+  m_SharedData: {fileID: 11400000, guid: 2ed670c47855e024c8a9e4161375ecf7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
   - m_Id: 75015585792
-    m_Key: ProcedureIntroTitle
+    m_Localized: Procedura guidata VR
     m_Metadata:
       m_Items: []
   - m_Id: 10243212247040
-    m_Key: ProcedureDescription
+    m_Localized: Macchina a stati (pulizia filtro + avviamento)
     m_Metadata:
       m_Items: []
   - m_Id: 56303636905984
-    m_Key: Restart
+    m_Localized: Ricomincia
     m_Metadata:
       m_Items: []
   - m_Id: 56464324886528
-    m_Key: TimeAprox
+    m_Localized: 'Tempo approssimativo: 2 min'
     m_Metadata:
       m_Items: []
   - m_Id: 56641441955840
-    m_Key: StartProcedure
+    m_Localized: Inizia
     m_Metadata:
       m_Items: []
   - m_Id: 56837420810240
-    m_Key: CompletedProcedure
+    m_Localized: Procedura completata!
     m_Metadata:
       m_Items: []
-  m_Metadata:
-    m_Items: []
-  m_KeyGenerator:
-    rid: 6038098016502284292
   references:
     version: 2
-    RefIds:
-    - rid: 6038098016502284292
-      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
-        asm: Unity.Localization}
-      data:
-        m_CustomEpoch: 1791448838859
+    RefIds: []

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Italian (Italy) (it-IT)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Italian (Italy) (it-IT)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7be19498cb1a45e4294f51644eaa81b6
+  m_SerializeEntries:
+  - m_GUID: 16c81a101602b4c4fb7158bee3c27f2b
+    m_Address: StepInstructions_it-IT
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-it-IT
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e67adbf4f52180a468fa71445751da4c
+    m_Address: StepTitles_it-IT
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-it-IT
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edc596e4175b48b43b214fa3e74b3518
+    m_Address: Global_it-IT
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-it-IT
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: b14b9d1e0d2d772499cc47577eb81bf4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c399a7193cb869746a663ab698ac6b95, type: 2}
+    - {fileID: 11400000, guid: 00ce1c95fbb13614cb4f48434b6c68fa, type: 2}
+    - {fileID: 11400000, guid: ba239f2163742c449b0310c6bed310fa, type: 2}

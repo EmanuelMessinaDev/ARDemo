@@ -17,6 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 9bfd0b51e5b4ff34f9f5b7dd158fdbdd
   m_SerializeEntries:
+  - m_GUID: 737d54f884f93674f8ffabc0f3e91ace
+    m_Address: Italian (Italy) (it-IT)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c49d391e0e12f1b46ae52d75a657033f
     m_Address: English (en)
     m_ReadOnly: 1

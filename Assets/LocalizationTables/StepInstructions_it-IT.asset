@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StepInstructions_it-IT
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: it-IT
+  m_SharedData: {fileID: 11400000, guid: e04ee66049db7914cbb8ddd7c310e2ca, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5960564736
+    m_Localized: 'Inserisci il cestello filtrante nel corpo del filtro fino a portarlo in sede'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79889367040
+    m_Localized: 'Chiudi il coperchio incernierato e serra i bulloni con l''avvitatore a batteria'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251338311532544
+    m_Localized: 'Chiudi il coperchio'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251479336615936
+    m_Localized: 'Serra tutti i bulloni con l''avvitatore a batteria'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367684609310720
+    m_Localized: 'Porta il sezionatore generale su ON (ruota in senso orario)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371496120156160
+    m_Localized: 'Apri la saracinesca di aspirazione: ruota il volantino in senso antiorario, usando entrambe le mani'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 604815659302912
+    m_Localized: 'Premi il pulsante RESET per tacitare l''allarme'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728793438683136
+    m_Localized: 'Abilita la Pompa 1, poi premi il pulsante verde START P1'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 745817137152000
+    m_Localized: 'Apri lentamente la valvola a farfalla - ruota la leva di un quarto di giro'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 746014445600768
+    m_Localized: 'Abilita la Pompa 2, poi premi il pulsante verde START P2'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

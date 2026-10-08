@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StepTitles_it-IT
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: it-IT
+  m_SharedData: {fileID: 11400000, guid: 80359378ece8c994d8c3922dcc9895a1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 72373174272
+    m_Localized: 'Inserisci il filtro'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231547011072
+    m_Localized: 'Chiudi il contenitore e serra i bulloni'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367988553744384
+    m_Localized: 'Sezionatore generale ON'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371830687203328
+    m_Localized: 'Apri la valvola'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 605133121978368
+    m_Localized: 'RESET allarme'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728957800873984
+    m_Localized: 'Abilita e avvia la pompa 1'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 746156041109504
+    m_Localized: 'Apri la valvola a farfalla'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 746353282449408
+    m_Localized: 'Abilita Pompa 2 - Avvia P2'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

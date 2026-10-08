@@ -26,6 +26,22 @@ MonoBehaviour:
     m_Localized: Macchina a stati (pulizia filtro + avviamento)
     m_Metadata:
       m_Items: []
+  - m_Id: 56303636905984
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56464324886528
+    m_Localized: 'Time aprox: 2 min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56641441955840
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56837420810240
+    m_Localized: Procedure completed!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
