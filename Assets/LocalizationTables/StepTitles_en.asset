@@ -38,6 +38,18 @@ MonoBehaviour:
     m_Localized: RESET alarm
     m_Metadata:
       m_Items: []
+  - m_Id: 728957800873984
+    m_Localized: Enable and start pump 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 746156041109504
+    m_Localized: Open the butterfly valve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 746353282449408
+    m_Localized: Enable Pump2 2 - Start P2
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

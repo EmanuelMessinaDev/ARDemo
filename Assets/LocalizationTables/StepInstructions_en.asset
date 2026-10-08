@@ -47,6 +47,18 @@ MonoBehaviour:
     m_Localized: Press the RESET button to clear the alarm
     m_Metadata:
       m_Items: []
+  - m_Id: 728793438683136
+    m_Localized: Enable Pump 1, then press the green START P1 button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 745817137152000
+    m_Localized: Slowly open the butterfly valve - turn the lever a quarter turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 746014445600768
+    m_Localized: Enable Pump 2, then press the green START P2 button
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
