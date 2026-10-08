@@ -10249,7 +10249,7 @@ MonoBehaviour:
     type: 3}
   _showAtStart: 1
   _showWhenSeated: 0
-  _material: {fileID: 0}
+  _material: {fileID: 2100000, guid: 9cd8f6de7bb1447199c32b229c769d86, type: 2}
   _startColor: {r: 0, g: 1, b: 1, a: 0.25}
   _seatedColor: {r: 0, g: 1, b: 0, a: 0.25}
   _visibleOnPlay: 0
@@ -14915,7 +14915,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - Icon: {fileID: 21300000, guid: 8fd7bbd18d60bed4a9601881c622544f, type: 3}
+  - Icon: {fileID: 21300000, guid: 931d1e98a4cb7894ea81bd3e2a03388e, type: 3}
     Label: Passthrough ON
     OnPressed:
       m_PersistentCalls:
