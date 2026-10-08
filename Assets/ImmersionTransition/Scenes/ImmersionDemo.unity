@@ -1304,7 +1304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 112.28, z: 0}
-  _size: {x: 245, y: 224.06, z: 0.01}
+  _size: {x: 245, y: 253.95999, z: 0.01}
 --- !u!114 &96287202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11529,7 +11529,7 @@ MonoBehaviour:
   _subStepsText: {fileID: 0}
   _introTitle: 
   _introInstructions: 
-  _completedMessage: Procedure completed
+  _completedMessage: 
   _localizedIntroTitle:
     m_TableReference:
       m_TableCollectionName: GUID:2ed670c47855e024c8a9e4161375ecf7
@@ -11541,9 +11541,9 @@ MonoBehaviour:
     m_LocalVariables: []
   _localizedIntroInstructions:
     m_TableReference:
-      m_TableCollectionName: GUID:2ed670c47855e024c8a9e4161375ecf7
+      m_TableCollectionName: 
     m_TableEntryReference:
-      m_KeyId: 10243212247040
+      m_KeyId: 0
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -15880,6 +15880,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710533173020774452, guid: f1a77534766d22845a3201e1799c7550,
+        type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2768009926592724741, guid: f1a77534766d22845a3201e1799c7550,
         type: 3}
