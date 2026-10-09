@@ -109,7 +109,18 @@ public class EmissionToggle : MonoBehaviour
 
     public void Toggle() => SetOn(!_on);
 
-    private Color EmissionColor()
+    private Color EmissionColor() => FullBrightness(SourceColor());
+
+    /// <summary>
+    /// Raises the HSV value to at least 1, keeping hue and saturation. HDR colors above 1 are left as they are.
+    /// </summary>
+    private static Color FullBrightness(Color color)
+    {
+        Color.RGBToHSV(color, out float h, out float s, out float v);
+        return Color.HSVToRGB(h, s, Mathf.Max(v, 1f), true);
+    }
+
+    private Color SourceColor()
     {
         if (_overrideColor)
         {
