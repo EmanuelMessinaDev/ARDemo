@@ -52,7 +52,7 @@ MonoBehaviour:
   _grabSound:
     Clips:
     - {fileID: 8300000, guid: e045b62ab2e21d246badb21fdc0b2c20, type: 3}
-    Volume: 0.2
+    Volume: 0.4
     PitchRange: {x: 0.95, y: 1.05}
   _releaseSound:
     Clips:
