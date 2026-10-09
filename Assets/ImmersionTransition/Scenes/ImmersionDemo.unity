@@ -947,7 +947,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 34a194390ac855e41a58e4de18ee9f84, type: 2}
+      objectReference: {fileID: 2100000, guid: 967ee733222e19547859e1644aeb3898, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -972,10 +972,30 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 837474937}
+    - targetCorrespondingSourceObject: {fileID: 8326113157194836252, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1283975343}
+    - targetCorrespondingSourceObject: {fileID: 2218819821855408871, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1283975342}
+    - targetCorrespondingSourceObject: {fileID: -7738027263039479930, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1283975341}
     - targetCorrespondingSourceObject: {fileID: 8359468585450058484, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1561752262}
+    - targetCorrespondingSourceObject: {fileID: -4940988159284752923, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1141729568}
+    - targetCorrespondingSourceObject: {fileID: -4184381947504793701, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 395097979}
     - targetCorrespondingSourceObject: {fileID: -5425686079792332890, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
         type: 3}
       insertIndex: -1
@@ -1304,7 +1324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 112.28, z: 0}
-  _size: {x: 245, y: 253.95999, z: 0.01}
+  _size: {x: 245, y: 224.06, z: 0.01}
 --- !u!114 &96287202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3387,6 +3407,24 @@ MonoBehaviour:
   _rigidbody: {fileID: 356507474}
   _snapPoseDelegate: {fileID: 0}
   _movementProvider: {fileID: 356507472}
+--- !u!114 &395097979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283975331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff185faf4efd9e4b8706686b5361832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _renderer: {fileID: 1283975332}
+  _materialIndex: 0
+  _overrideColor: 0
+  _emissionColor: {r: 1, g: 1, b: 1, a: 1}
+  _intensity: 1
+  _onAtStart: 0
 --- !u!1 &414453961
 GameObject:
   m_ObjectHideFlags: 0
@@ -6710,6 +6748,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 395097979}
+        m_TargetAssemblyTypeName: EmissionToggle, Assembly-CSharp
+        m_MethodName: TurnOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 4
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _requiredTime: 0
   _resetTimerWhenFalse: 1
   _button: {fileID: 676894286}
@@ -6942,7 +6992,19 @@ MonoBehaviour:
       m_Calls: []
   _whenCompleted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1283975342}
+        m_TargetAssemblyTypeName: EmissionToggle, Assembly-CSharp
+        m_MethodName: TurnOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _requiredTime: 0
   _resetTimerWhenFalse: 1
   _rotator: {fileID: 1671370756}
@@ -8733,6 +8795,24 @@ MonoBehaviour:
   _rotator: {fileID: 1288156398}
   _targetPosition: 1
   _requireRelease: 0
+--- !u!114 &1141729568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283975333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff185faf4efd9e4b8706686b5361832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _renderer: {fileID: 1283975334}
+  _materialIndex: 0
+  _overrideColor: 0
+  _emissionColor: {r: 1, g: 1, b: 1, a: 1}
+  _intensity: 1
+  _onAtStart: 0
 --- !u!1 &1152880876
 GameObject:
   m_ObjectHideFlags: 0
@@ -9143,6 +9223,120 @@ MonoBehaviour:
   _movementProvider: {fileID: 0}
   _handAligment: 0
   _handGrabPoses: []
+--- !u!1 &1283975331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4184381947504793701, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 91863305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1283975332 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7465939946685362168, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 91863305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1283975333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4940988159284752923, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 91863305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1283975334 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7901831061503423838, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 91863305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1283975335 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7738027263039479930, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 91863305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1283975336 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2768370575857759058, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 91863305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1283975337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2218819821855408871, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 91863305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1283975338 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7694506066979352991, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 91863305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1283975339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8326113157194836252, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 91863305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1283975340 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8132369884239461239, guid: 6d8fe62ab408c8341a13c5fe9606f6bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 91863305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1283975341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283975335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff185faf4efd9e4b8706686b5361832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _renderer: {fileID: 1283975336}
+  _materialIndex: 0
+  _overrideColor: 0
+  _emissionColor: {r: 1, g: 1, b: 1, a: 1}
+  _intensity: 1
+  _onAtStart: 0
+--- !u!114 &1283975342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283975337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff185faf4efd9e4b8706686b5361832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _renderer: {fileID: 1283975338}
+  _materialIndex: 0
+  _overrideColor: 0
+  _emissionColor: {r: 1, g: 1, b: 1, a: 1}
+  _intensity: 1
+  _onAtStart: 0
+--- !u!114 &1283975343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283975339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff185faf4efd9e4b8706686b5361832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _renderer: {fileID: 1283975340}
+  _materialIndex: 0
+  _overrideColor: 0
+  _emissionColor: {r: 1, g: 1, b: 1, a: 1}
+  _intensity: 1
+  _onAtStart: 0
 --- !u!1 &1288156395
 GameObject:
   m_ObjectHideFlags: 0
@@ -9489,6 +9683,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: GaugeNeedle, Assembly-CSharp
         m_MethodName: SetValue
         m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 5000
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 395097979}
+        m_TargetAssemblyTypeName: EmissionToggle, Assembly-CSharp
+        m_MethodName: TurnOn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -14255,7 +14461,19 @@ MonoBehaviour:
       m_Calls: []
   _whenCompleted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1283975341}
+        m_TargetAssemblyTypeName: EmissionToggle, Assembly-CSharp
+        m_MethodName: TurnOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _requiredTime: 0
   _resetTimerWhenFalse: 1
   _rotator: {fileID: 104428448}
